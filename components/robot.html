@@ -1,0 +1,93 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thardchi Ganesalingam</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar">
+            <div>
+                <a href="#" class="nav_logo">Thardchi Ganesalingam</a>
+            </div>
+
+            <div class="nav_menu" id="nav_menu">
+                <ul>
+                    <li>
+                        <a href="../index.html" class="nav_link active">Home</a>
+                    </li>
+                    <li>
+                        <a href="../components/experience.html" class="nav_link active">Experience</a>
+                    </li>
+                    <li>
+                        <a href="../components/projects.html" class="nav_link active">Projects</a>
+                    </li>
+                    <!-- <li>
+                        <a href="#contact" class="nav_link active">Contact</a>
+                    </li> -->
+                </ul>
+            </div>
+        </nav>
+        <section class="header">
+            <div class="header_data">
+                <h1 class="my-name">Multi-Arm Robotic Coordination for Complex Space Missions</h1>
+                <h1 class="experience-subtitle">
+                    Robotics/Software Engineering Intern<br>Mission Control | Ottawa, ON</h1>
+                <a href="./experience.html" class="a_header">
+                    <button class="resume_button">More Projects</button>
+                </a>
+
+                <div class="exp-img">
+                    <p><b>Skills </b>C/C++ TypeScript</p>
+
+                    <p class="description"><b>Task</b>
+                    <br> Upgrade the existing architecture which can only manipulate one robotic arm at a time, to one that can simultaneously execute sequences on both arms.
+                    </p>
+
+                    <p class="description"><b>What I did:</b>
+                        <ul class="description">
+                            <li>Designed and implemented a robotic control node featuring a state machine to facilitate simultaneous task sequences,
+                            efficiently parsing and distributing commands to individual robotic arms.</li>
+                            <li>Developed a sequence schema to accommodate sequences for both robotic arms within a single entry.</li>
+                            <li>Verified arm states prior to command transmission, ensuring synchronized multi-arm operations that simulate satellite proximity scenarios (ie. space debris removal, in-orbit servicing, etc.).</li>
+                            <li>Developed trajectories for both arms that were representative of three in-orbit servicing missions; active debris removal, in-orbit repair & maintenance, and hazard detection using a visualization tool called RoboDK.</li>
+                            <li>Generated sequences for each arm to follow that trajectory, enabling the ZED camera on the UR10e to collect images and ground
+                            truth labels of the satellite model.</li>
+                        </ul>
+                    </p>
+
+                    <p class="description"><b>Result</b>
+                    <br>
+                    This enabled hardware-in-the-loop simulations of a satellite pose-estimation model for in-orbit servicing missions in partnership with the Canadian Space Agency.
+                    </p>
+
+
+
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!-- Cards -->
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Thardchi Ganesalingam</p>
+            <a href="#www.linkedin/thadchi">LinkedIn</a>
+            <a href="#footer">|</a>
+            <a href="https://github.com/thardchi">GitHub</a>
+            <a href="#footer">|</a>
+            <a href="mailto:thardchi.ganesalingam@mail.utoronto.ca">Email</a>
+        </div>
+    </footer>
+</body>
+
+</html>
