@@ -517,6 +517,14 @@ h1.subtitle {
     right: 200px;
 }
 
+.double_button:hover {
+    background-color: #0056b3;
+}
+
+.double_button_two:hover {
+    background-color: #0056b3;
+}
+
 /* .box_body {
     margin-top: -3rem;
     padding-top: 10rem;
